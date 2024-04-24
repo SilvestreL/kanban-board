@@ -1,8 +1,6 @@
-# React + Vite
+Um projeto criado em React no front-end e Firebase no back-end que funciona como um quadro Kanban permite aos usuários criar, mover e gerenciar tarefas em colunas visuais para organização de fluxo de trabalho e gestão de projetos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Os itens implementados e os que faltaram integraçao estão expressos no próprio quadro kanban, na página home.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dupla: Lucas Silvestre e José Elio Araújo Rodrigues Neto
