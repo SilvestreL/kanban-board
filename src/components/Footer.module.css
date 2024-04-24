@@ -1,0 +1,29 @@
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .content {
+    margin: 10px 0;
+  }
+  
+  .links, .socialMedia {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .links a, .socialMedia a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .links a:hover, .socialMedia a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,123 @@
+.active {
+  background-color: #000; /* Define a cor de fundo como preta para elementos ativos. */
+  color: #fff; /* Define a cor do texto como branca para elementos ativos. */
+}
+
+body {
+  background-color: #F6FCFF; /* Define a cor de fundo do corpo do documento como um azul muito claro. */
+  padding: 0; /* Remove o preenchimento do corpo do documento. */
+  margin: 0; /* Remove as margens do corpo do documento. */
+  font-family: "Montserrat", sans-serif; /* Define a fonte padrão para o corpo do documento. *//
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Montserrat", sans-serif; /* Define a fonte dos textos de placeholder para inputs e textareas. */
+  color: #aaa; /* Define a cor dos textos de placeholder como cinza claro. */
+}
+
+input:focus, textarea:focus {
+  outline: none; /* Remove o contorno ao focar em inputs e textareas. */
+}
+
+a, nav button {
+  text-decoration: none; /* Remove o sublinhado de links e botões no nav. */
+  background-color: transparent; /* Define o fundo dos links e botões no nav como transparente. */
+  border: none; /* Remove as bordas dos links e botões no nav. */
+  color: black; /* Define a cor dos textos dos links e botões no nav como preta. */
+  transition: .4s; /* Aplica uma transição suave de 0.4 segundos para propriedades alteradas em links e botões no nav. */
+  font-size: 1em; /* Define o tamanho da fonte para links e botões no nav como 1em. */
+  cursor: pointer; /* Altera o cursor para indicar que links e botões no nav são clicáveis. */
+  font-family: "Montserrat", sans-serif; /* Define a fonte dos links e botões no nav. */
+}
+
+a:hover, nav button::hover {
+  color: white; /* Muda a cor dos links e botões no nav para branco quando passa o mouse sobre eles. */
+}
+
+form{
+  max-width: 40%; /* Define a largura máxima do formulário como 40% do seu container. */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente. */
+}
+
+label {
+  display: flex; /* Define o layout dos labels como flexível, permitindo o controle de posicionamento interno. */
+  flex-direction: column; /* Organiza os itens dentro do label em uma coluna. */
+  margin-bottom: 1px; /* Define a margem inferior dos labels como 1px. */
+}
+
+label span {
+  margin-bottom: .3em; /* Define a margem inferior do span dentro dos labels como 0.3em. */
+  font-weight: bold; /* Deixa o texto do span dentro dos labels em negrito. */
+  text-align: left; /* Alinha o texto do span dentro dos labels à esquerda. */
+}
+
+input, textarea {
+  box-sizing: border-box; /* Garante que padding e border são incluídos no cálculo da largura/altura total. */
+  border: none; /* Remove a borda de inputs e textareas. */
+  border-bottom: 1px solid #CCC; /* Aplica uma borda inferior sólida e cinza clara aos inputs e textareas. */
+  background-color: transparent; /* Define o fundo dos inputs e textareas como transparente. */
+  padding: .8em 0; /* Define o preenchimento vertical dos inputs e textareas. */
+}
+
+.btn {
+  background-color: #1a8918; /* Define a cor de fundo dos botões como verde escuro. */
+  color: #FFF; /* Define a cor do texto dos botões como branca. */
+  text-align: center; /* Centraliza o texto dos botões. */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável. */
+  border-radius: 10px; /* Arredonda os cantos dos botões. */
+  width: 120px; /* Define a largura dos botões. */
+  font-weight: bold; /* Deixa o texto dos botões em negrito. */
+  border: none; /* Remove a borda dos botões. */
+  padding: 10px 15px; /* Define o preenchimento interno dos botões. */
+  font-size: 1em; /* Define o tamanho da fonte dos botões como 1em. */
+}
+
+.btn.btn-dark {
+  background-color: #000; /* Define a cor de fundo dos botões .btn-dark como preta. */
+  border-radius: 0; /* Remove o arredondamento dos cantos dos botões .btn-dark. */
+}
+
+.btn.btn-outline {
+  background-color: transparent; /* Define o fundo dos botões .btn-outline como transparente. */
+  border-radius: 0; /* Remove o arredondamento dos cantos dos botões .btn-outline. */
+  color: #000; /* Define a cor do texto dos botões .btn-outline como preta. */
+  border: 1px solid #000; /* Aplica uma borda sólida e preta aos botões .btn-outline. */
+  padding: 7px 30px; /* Define o preenchimento interno dos botões .btn-outline. */
+}
+
+.btn:hover {
+  background-color: #0F730C; /* Muda a cor de fundo dos botões ao passar o mouse para verde escuro. */
+  color: #fff; /* Muda a cor do texto dos botões ao passar o mouse para branca. */
+}
+
+.btn.btn-danger:hover {
+  background-color: #dc3545; /* Muda a cor de fundo dos botões .btn-danger ao passar o mouse para vermelho. */
+}
+
+button[disable] {
+  background-color: #aaa; /* Define a cor de fundo dos botões desabilitados como cinza médio. */
+}
+
+.container .error{
+  color: #721c24; /* Define a cor do texto das mensagens de erro como um vermelho escuro. */
+  background-color: #f8d7da; /* Define a cor de fundo das mensagens de erro como um rosa muito claro. */
+  border: 1px solid #f5c6cb; /* Define a borda das mensagens de erro como rosa claro. */
+  padding: 5px; /* Define o preenchimento interno das mensagens de erro. */
+  border-radius: 5px; /* Arredonda os cantos das mensagens de erro. */
+}
+
+
+.submitnewcard {
+    background-color: #e6eae6; /* Define a cor de fundo dos botões como verde escuro. */
+    color: #FFF; /* Define a cor do texto dos botões como branca. */
+    text-align: center; /* Centraliza o texto dos botões. */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável. */
+    border-radius: 10px; /* Arredonda os cantos dos botões. */
+    width: 120px; /* Define a largura dos botões. */
+    font-weight: bold; /* Deixa o texto dos botões em negrito. */
+    border: none; /* Remove a borda dos botões. */
+    padding: 10px 15px; /* Define o preenchimento interno dos botões. */
+    font-size: 3em; /* Define o tamanho da fonte dos botões como 1em. */
+  
+}

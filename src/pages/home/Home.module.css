@@ -1,0 +1,71 @@
+/* Estilos gerais */
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.box {
+  width: 300px;
+  min-height: 200px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  overflow-y: auto; /* Habilita scroll se a lista for muito longa */
+}
+
+/* Estilos para os itens da lista */
+.taskItem {
+  padding: 8px;
+  margin: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  list-style: none; /* Remove o marcador de lista */
+}
+
+/* Estilos para input e botões */
+.inputTask {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitButton {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submitButton:hover {
+  background-color: #45a049; /* Verde mais escuro */
+}
+
+/* Estilos para mensagens de erro */
+.error {
+  color: #D8000C;
+  background-color: #FFD2D2;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #D8000C;
+  border-radius: 4px;
+}
+
+/* Labels geral */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
