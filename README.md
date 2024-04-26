@@ -3,4 +3,3 @@ Um projeto criado em React no front-end e Firebase no back-end que funciona como
 
 Os itens implementados e os que faltaram integraçao estão expressos no próprio quadro kanban, na página home.
 
-Dupla: Lucas Silvestre e José Elio Araújo Rodrigues Neto
